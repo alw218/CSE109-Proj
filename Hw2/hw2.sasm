@@ -1,0 +1,86 @@
+#Amber Wallace
+#alw218
+#Hw2
+
+#set initial vars
+LOADL 3.000
+STOREV pi
+
+LOADL 2.0
+STOREV denom
+
+LOADL 1
+STOREV termNum
+
+LOADL 50
+STOREV totalTerms
+
+LOADL 1.0
+STOREV mlt
+
+#loop throught appropriate number of term numbers
+TERMLOOP:
+#jump out if termNum > totalTerms
+LOADV termNum
+LOADV totalTerms
+ISLE
+JUMPF OUTPUT
+
+#get current denomonator
+LOADV denom
+LOADL 2.0
+ADD
+STOREV d2
+LOADV denom
+LOADL 1.0
+ADD
+LOADV d2
+MULT
+LOADV denom
+MULT
+STOREV fullDenom
+
+#get number to add to current pi
+LOADV mlt
+LOADL 4.0
+MULT
+STOREV numer
+LOADV numer
+LOADV fullDenom
+DIV
+STOREV nTerm
+
+#sum nTerm and current pi
+LOADV pi
+LOADV nTerm
+ADD
+STOREV pi
+
+#increment necessary vars
+LOADV denom
+LOADL 2.0
+ADD
+STOREV denom
+LOADV mlt
+LOADL -1.0
+MULT
+STOREV mlt
+LOADV termNum
+LOADL 1
+ADD
+STOREV termNum
+
+#jump to top of loop
+JUMP TERMLOOP
+
+#print output
+OUTPUT:
+PRINTS "Pi to term "
+LOADV termNum
+LOADL 1
+SUB
+PRINT
+PRINTS " is "
+LOADV pi
+PRINT
+PRINTLN

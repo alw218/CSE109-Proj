@@ -1,0 +1,8 @@
+PROGRAM testfile
+print 44.3, " same line as 44.3"
+print 91, "test"
+SET f = 5+2
+SET var = f * f
+print "var: ", var, "f-5/var-6: ",f-5/var-6
+print 22.2,34.2
+END PROGRAM

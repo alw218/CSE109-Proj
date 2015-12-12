@@ -1,0 +1,14 @@
+program x 
+  set x = 10 
+  set y = (x - 9) * 5 
+  set z = x + y 
+  while x < 15 AND 5 == 5 OR x == 20 do 
+    set x = x + 1 
+  end 
+  if y == 5 then 
+    print x 
+  else 
+    print y 
+  endif 
+  print "Answer= ", x, y, z
+end program

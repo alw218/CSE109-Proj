@@ -1,0 +1,2 @@
+nasm -f elf64 -g $1.asm 
+ld -o $1 --entry main $1.o

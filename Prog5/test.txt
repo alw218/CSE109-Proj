@@ -1,0 +1,12 @@
+"test"
+234234
+while
+(4
+)5
+0
+0.11
+0x123
+@%^!@
+#this is a comment
+"coment" "above"
+123 five

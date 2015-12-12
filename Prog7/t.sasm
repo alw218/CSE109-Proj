@@ -1,0 +1,19 @@
+#dont read this comment
+LOADL 1
+STOREV xyz
+loop1:
+LOADV xyz #comment
+LOADL 5
+ISGT
+JUMPF loop2
+LOADV xyz
+DUP
+PRINT
+PRINTLN
+LOADL 1
+ADD
+STOREV xyz
+JUMP loop1
+loop2:
+PRINTS "DONE"
+PRINTLN

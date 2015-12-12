@@ -1,0 +1,289 @@
+CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.CSE 109 Programming Assignment 1
+Due: Wed, 9/2/15 at 11:00 PM Project Name: Prog1
+Note: All file and folder names in this document are case-sensitive.
+Note: That this is Programming Assignment 1. There are two types of
+assignments in 109 – homework and programs.
+Collaboration Reminder
+* You must submit your own work. * In particular, you may not:
+- Show your code to any of your classmates. - Look at or copy anyone
+else's code.
+- Copy material found on the Internet.
+- Work together on an assignment
+1. Log into your account on sunlab.cse.lehigh.edu.
+2. Create a sub-folder named Prog1 in your cse109.154 folder.
+3. Run emacs and create a C source code file named prog1.c in the
+Prog1 folder. All of your code will go into this source file.
+4. Add the comment block shown below to the top of the file
+prog1.c. Substitute your name and user id (eg. jaf207 – do NOT use
+your LIN).
+5. Create a main function and any additional functions necessary to do
+the following:
+1. Create a filter program that reads from standard input and writes
+to standard output.
+2. The program should read the input text line for line, and, if there
+are no command line options, then
+write each line as is to standard output.
+3. Do the following for each of the following command line options:
+1. -u – convert all the text to upper case.
+2. -r – reverse each word in the text (a word is a string of chars
+surrounded by blanks).
+3. If both options are given then both changes should be made.
+4. Any other option should cause an “Invalid command line option”
+message along with the option
+itself to be displayed to standard error before quitting the program.
+6. Compile your program using the command: gcc -o changetext prog1.c
+7. Run the program as part of a pipe, eg.: cat myfile | changetext -u
+| more. Myfile should be a text file that contains several screens
+worth of text.
+8. When your program is sufficiently tested, run tar -zcvf
+Prog1.tar.gz Prog1/ from the cse109.154 folder to zip up your
+assignment.
+9. Transfer the Prog1.tar.gz file to a system where you can upload it
+to Coursesite.
+more text at the end of test file
